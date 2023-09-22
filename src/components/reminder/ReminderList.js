@@ -12,7 +12,7 @@ const ReminderList = ({ day }) => {
     (reminder) => reminder.date === day
   );
 
-  const isMoreThanOneReminder = filteredReminders.length > 2;
+  const isMoreThanOneReminder = filteredReminders.length > 3;
 
   return (
     <div
