@@ -7,8 +7,7 @@ function routes() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route exact path="/" element={<App />} />
-        <Route exact path="/calendar" element={<Calendar />} />
+        <Route exact path="/" element={<Calendar />} />
       </Routes>
     </BrowserRouter>
   );
