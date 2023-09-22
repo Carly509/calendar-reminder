@@ -55,3 +55,26 @@
     overflow-y: auto;
     background-color: #2f74b5;
 }
+
+@media only screen and (max-width: 769px) {
+    .modal-overlay {
+      width: 105%;
+      }
+  }
+  @media only screen and (max-width: 669px) {
+    .modal-overlay {
+      width: 225%;
+      }
+  }
+  @media only screen and (max-width: 430px) {
+    .modal-container {
+        margin-left: 3rem;
+        width: 170%;
+    }
+  }
+  @media only screen and (max-width: 330px) {
+    .modal-container {
+        margin-left: 2rem;
+        width: 190%;
+    }
+  }
