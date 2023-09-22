@@ -1,5 +1,3 @@
-
-
 # React
 
  This is a simple React application that allows you to add reminder in a calendar and see them in a list with the details of the reminder and the specific weather for that reminder's date. The app is built using React, Redux, Reduxjs/toolkit, React-Router, fontAwesome and VisualCrossing Api.
