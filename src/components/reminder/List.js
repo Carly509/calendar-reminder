@@ -2,17 +2,18 @@ import React from "react";
 
 const List = ({ filteredReminders }) => {
   return filteredReminders.map((reminder) => (
-    <p
-      key={reminder.id}
-      style={{
-        fontSize: "10px",
-        color: "white",
-        fontWeight: "200",
-        marginBottom: "-.5rem",
-      }}
-    >
-      - {reminder.description.substring(0, 10) + "..."}
-    </p>
+    <div style={{ borderBottom: "1px solid #fff", marginBottom: "-1rem" }}>
+      <p
+        key={reminder.id}
+        style={{
+          fontSize: "10px",
+          color: "white",
+          fontWeight: "200",
+        }}
+      >
+        - {reminder.description.substring(0, 15) + "..."}
+      </p>
+    </div>
   ));
 };
 

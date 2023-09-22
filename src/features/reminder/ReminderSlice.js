@@ -6,10 +6,21 @@ export const reminderSlice = createSlice({
     reminders: [
       {
         id: 1,
-        date: "2021-08-01",
-        time: "10:00",
-        city: "New York",
-        description: "Meeting with John",
+        date: new Date().toISOString().slice(0, 10),
+        time: new Date().toLocaleString("en-US", {
+          hour: "numeric",
+          minute: "numeric",
+          hour12: true,
+        }),
+        city: "Miami",
+        description: "Start learning this new programming language today!",
+      },
+      {
+        id: 2,
+        date: new Date().toISOString().slice(0, 10),
+        time: "03:00 PM",
+        city: "Paris",
+        description: "Piano lesson today",
       },
     ],
   },

@@ -26,7 +26,7 @@ const ReminderList = ({ day }) => {
         <SharedList filteredReminders={filteredReminders} />
       ) : (
         <>
-          <SharedList filteredReminders={filteredReminders.slice(0, 2)} />
+          <SharedList filteredReminders={filteredReminders.slice(0, 3)} />
           <p
             style={{
               fontSize: "10px",
@@ -34,7 +34,7 @@ const ReminderList = ({ day }) => {
               fontWeight: "300",
             }}
           >
-            - {filteredReminders.length - 2} more...
+            - {filteredReminders.length - 3} more...
           </p>
         </>
       )}
