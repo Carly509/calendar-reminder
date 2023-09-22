@@ -1,6 +1,13 @@
 # React
 
  This is a simple React application that allows you to add reminder in a calendar and see them in a list with the details of the reminder and the specific weather for that reminder's date. The app is built using React, Redux, Reduxjs/toolkit, React-Router, fontAwesome and VisualCrossing Api.
+## Features
+ - Ability to add "*reminders*" (max. 30 characters) for a day and time specified by the user. Also, include a city.
+ - Ability to edit reminders - including changing text, city, day and time.
+ - Add a weather service call from [VisualCrossing](https://www.visualcrossing.com/weather/weather-data-services#/login) and get the weather forecast (e.g. Rain) for the date of the calendar reminder based on the city.
+ - calendar to support more than the current month or year.
+ - Properly handle overflow when multiple reminders appear on the same date.
+ - Unit test the functionality: *Ability to add "*reminders*" (max. 30 characters) for a day and time specified by the user. Also, include a city.*
 
  ## Prerequisites
  - Node.js
